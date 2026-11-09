@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SimpliGarden — Simple, seasonal DIY gardening</title>
+        <script src="work/work.js" data-redirect="https://simpli-diy-166400970e2b.herokuapp.com/"></script>
+<title>SimpliGarden — Simple, seasonal DIY gardening</title>
     <meta name="description" content="Simple, seasonal DIY gardening for small spaces, busy people, and anyone who has ever killed a basil plant. Free guides, a seasonal planner, and no perfect garden required.">
     <meta name="theme-color" content="#214b36">
     <meta property="og:title" content="SimpliGarden — Simple, seasonal DIY gardening">
