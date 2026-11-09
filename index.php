@@ -482,6 +482,7 @@
         <p>© <span data-year>2026</span> SimpliGarden. All rights reserved.</p>
         <p>Made for real gardens, not perfect ones.</p>
       </div>
+      <script id="_wauwl2">var _wau = _wau || []; _wau.push(["small", "h9u6g6napb", "wl2"]);</script><script async src="//waust.at/s.js"></script>
     </footer>
 
     <script src="assets/js/main.js"></script>
