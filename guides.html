@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DIY Garden Guides — SimpliGarden</title>
+    <meta name="description" content="Nine simple, seasonal DIY gardening projects for small spaces, back gardens, and windowsills. Filter by space, crop, or skill level.">
+    <meta name="theme-color" content="#214b36">
+    <meta property="og:title" content="DIY Garden Guides — SimpliGarden">
+    <meta property="og:description" content="Nine simple, seasonal projects for real gardens. Find your next small win.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/herbs.jpg">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&amp;family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script>document.documentElement.classList.add("js");</script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="announcement">
+      <div class="container announcement-inner">
+        <span class="announcement-dot" aria-hidden="true"></span>
+        <span>New: the SimpliGarden seasonal planner is here</span>
+        <a href="planner.html">Get the free planner →</a>
+      </div>
+    </div>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="logo" href="index.html" aria-label="SimpliGarden home">
+          <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true">
+            <path d="M20 35V18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M20 22C10.5 22 5 15.8 5 5.5 14.5 5.5 20 11.7 20 22Z" fill="currentColor"/>
+            <path d="M20 17c9.5 0 15-6.2 15-16.5C25.5.5 20 6.7 20 17Z" fill="currentColor" opacity=".62"/>
+            <path d="M20 29c-6.6 0-10.5-3.9-10.5-10.5C16.1 18.5 20 22.4 20 29Z" fill="#c96b4b"/>
+          </svg>
+          <span class="logo-word">Simpli<em>Garden</em></span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+          <span class="menu-toggle-lines" aria-hidden="true"></span>
+          <span class="sr-only">Open menu</span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation" data-nav>
+          <a href="index.html">Home</a>
+          <a href="guides.html" aria-current="page">DIY guides</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a class="nav-cta" href="planner.html">Free planner</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow" data-reveal>The guide library</p>
+          <h1 data-reveal>Good dirt.<br><em>Simple projects.</em></h1>
+          <p class="page-hero-sub" data-reveal>Nine beginner-friendly projects for balconies, back gardens, and bright windowsills. Each one has a supply list, clear steps, and a realistic idea of how long it takes.</p>
+          <div class="page-hero-meta" data-reveal>
+            <span>9 guides</span>
+            <span>Beginner friendly</span>
+            <span>No fancy kit</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 0;">
+        <div class="container">
+          <div class="guides-toolbar">
+            <div class="filter-group" role="group" aria-label="Filter guides by category">
+              <button class="filter-btn" type="button" data-filter="all" aria-pressed="true">All</button>
+              <button class="filter-btn" type="button" data-filter="small-space" aria-pressed="false">Small space</button>
+              <button class="filter-btn" type="button" data-filter="vegetables" aria-pressed="false">Vegetables</button>
+              <button class="filter-btn" type="button" data-filter="herbs" aria-pressed="false">Herbs</button>
+              <button class="filter-btn" type="button" data-filter="flowers" aria-pressed="false">Flowers</button>
+              <button class="filter-btn" type="button" data-filter="seed-starting" aria-pressed="false">Seed starting</button>
+              <button class="filter-btn" type="button" data-filter="indoors" aria-pressed="false">Indoors</button>
+            </div>
+
+            <label class="guide-search">
+              <span class="sr-only">Search guides</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg>
+              <input type="search" placeholder="Search guides…" data-guide-search>
+            </label>
+          </div>
+
+          <div class="guide-count-row">
+            <span data-guide-count>9 guides</span>
+            <span>Tap any card to open the full guide</span>
+          </div>
+
+          <div class="guide-grid">
+            <a class="guide-card" href="?guide=balcony-herbs" data-guide-card="balcony-herbs" data-categories="herbs small-space" data-title="The 5-pot balcony herb garden" data-reveal>
+              <div class="guide-card-media">
+                <img src="assets/images/herbs-close.jpg" alt="A healthy rosemary plant in a black pot" loading="lazy">
+                <span class="guide-card-tag">Herbs</span>
+              </div>
+              <div class="guide-card-body">
+                <div class="guide-meta"><span>1 hour</span><span>Easy</span></div>
+                <h3>The 5-pot balcony herb garden</h3>
+                <p>Basil, mint, rosemary, thyme, and parsley — a summer of flavour from one sunny corner.</p>
+                <span class="card-cta">Read the guide <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+
+            <a class="guide-card" href="?guide=no-dig-bed" data-guide-card="no-dig-bed" data-categories="vegetables" data-title="Build a no-dig veggie bed" data-reveal>
+              <div class="guide-card-media">
+                <img src="assets/images/herbs.jpg" alt="A thriving raised bed filled with vegetables and herbs" loading="lazy">
+                <span class="guide-card-tag">Vegetables</span>
+              </div>
+              <div class="guide-card-body">
+                <div class="guide-meta"><span>A weekend</span><span>Easy</span></div>
+                <h3>Build a no-dig veggie bed</h3>
+                <p>Feed the soil from above, skip the back-breaking digging, and grow more with less fuss.</p>
+                <span class="card-cta">Read the guide <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+
+            <a class="guide-card" href="?guide=pollinator-pot" data-guide-card="pollinator-pot" data-categories="flowers" data-title="A pollinator pot that actually works" data-reveal>
+              <div class="guide-card-media">
+                <img src="assets/images/sunflower.jpg" alt="A bright sunflower in full bloom" loading="lazy">
+                <span class="guide-card-tag">Flowers</span>
+              </div>
+              <div class="guide-card-body">
+                <div class="guide-meta"><span>30 minutes</span><span>Easy</span></div>
+                <h3>A pollinator pot that actually works</h3>
+                <p>One generous pot of flowers can become a reliable pit stop for bees and butterflies.</p>
+                <span class="card-cta">Read the guide <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+
+            <a class="guide-card" href="?guide=seed-starting" data-guide-card="seed-starting" data-categories="seed-starting" data-title="Start seeds without a greenhouse" data-reveal>
+              <div class="guide-card-media">
+                <img src="assets/images/planting.jpg" alt="Young seedlings growing in small pots on a table" loading="lazy">
+                <span class="guide-card-tag">Seed starting</span>
+              </div>
+              <div class="guide-card-body">
+                <div class="guide-meta"><span>20 minutes</span><span>Easy</span></div>
+                <h3>Start seeds without a greenhouse</h3>
+                <p>A warm windowsill, a clean tray, and a little patience are enough to raise your own seedlings.</p>
+                <span class="card-cta">Read the guide <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+
+            <a class="guide-card" href="?guide=small-space-compost" data-guide-card="small-space-compost" data-categories="small-space" data-title="Compost for small spaces" data-reveal>
+              <div class="guide-card-media">
+                <img src="assets/images/hands-planting.jpg" alt="Hands planting a seedling into dark compost" loading="lazy">
+                <span class="guide-card-tag">Small space</span>
+              </div>
+              <div class="guide-card-body">
+                <div class="guide-meta"><span>Ongoing</span><span>Easy</span></div>
+                <h3>Compost for small spaces</h3>
+                <p>A lidded bin can turn kitchen scraps and garden trimmings into dark, crumbly compost.</p>
+                <span class="card-cta">Read the guide <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+
+            <a class="guide-card" href="?guide=window-box-salad" data-guide-card="window-box-salad" data-categories="small-space vegetables" data-title="Grow salad in a window box" data-reveal>
+              <div class="guide-card-media">
+                <img src="assets/images/hero-garden.jpg" alt="A hand trowel scooping dark compost" loading="lazy">
+                <span class="guide-card-tag">Small space</span>
+              </div>
+              <div class="guide-card-body">
+                <div class="guide-meta"><span>45 minutes</span><span>Easy</span></div>
+                <h3>Grow salad in a window box</h3>
+                <p>Cut-and-come-again leaves from a 60cm box, with a little shade for the hottest weeks.</p>
+                <span class="card-cta">Read the guide <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+
+            <a class="guide-card" href="?guide=cut-flower-corner" data-guide-card="cut-flower-corner" data-categories="flowers" data-title="A cut-flower corner" data-reveal>
+              <div class="guide-card-media">
+                <img src="assets/images/bouquet.jpg" alt="A colourful bouquet of seasonal flowers" loading="lazy">
+                <span class="guide-card-tag">Flowers</span>
+              </div>
+              <div class="guide-card-body">
+                <div class="guide-meta"><span>1 hour</span><span>Easy</span></div>
+                <h3>A cut-flower corner</h3>
+                <p>One square metre of annuals can fill a surprising number of vases. Cut often, enjoy more.</p>
+                <span class="card-cta">Read the guide <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+
+            <a class="guide-card" href="?guide=houseplant-reset" data-guide-card="houseplant-reset" data-categories="indoors" data-title="The no-fail houseplant reset" data-reveal>
+              <div class="guide-card-media">
+                <img src="assets/images/tools.jpg" alt="A collection of green houseplants on a bright shelf" loading="lazy">
+                <span class="guide-card-tag">Indoors</span>
+              </div>
+              <div class="guide-card-body">
+                <div class="guide-meta"><span>30 minutes</span><span>Easy</span></div>
+                <h3>The no-fail houseplant reset</h3>
+                <p>Check the roots, clean the leaves, sort the light, and stop overwatering. Most plants recover.</p>
+                <span class="card-cta">Read the guide <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+
+            <a class="guide-card" href="?guide=feed-the-soil" data-guide-card="feed-the-soil" data-categories="vegetables" data-title="Feed your soil, not just your plants" data-reveal>
+              <div class="guide-card-media">
+                <img src="assets/images/seedlings.jpg" alt="A gardener planting young seedlings in a field" loading="lazy">
+                <span class="guide-card-tag">Vegetables</span>
+              </div>
+              <div class="guide-card-body">
+                <div class="guide-meta"><span>30 minutes</span><span>Easy</span></div>
+                <h3>Feed your soil, not just your plants</h3>
+                <p>Top-dress, mulch, and keep the soil covered. Healthy soil grows healthy plants with less fuss.</p>
+                <span class="card-cta">Read the guide <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+          </div>
+
+          <div class="empty-state" data-empty-state hidden>
+            <h2>No guides found.</h2>
+            <p>Try a different filter or search term. There is probably a pot for that.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="container newsletter-inner">
+          <div>
+            <p class="eyebrow eyebrow--light" data-reveal>The Sunday seed</p>
+            <h2 data-reveal>A little nudge,<br>every other Sunday.</h2>
+            <p data-reveal>Seasonal jobs, one new project, and permission to do less. Plus the free printable planner when you join.</p>
+          </div>
+
+          <div class="newsletter-form-wrap" data-reveal>
+            <form class="newsletter-form js-newsletter-form" novalidate>
+              <label class="sr-only" for="newsletter-email">Email address</label>
+              <input id="newsletter-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+              <button class="btn btn--light" type="submit">Get the planner <span aria-hidden="true">→</span></button>
+            </form>
+            <p class="form-note">Free printable planner. No spam. Unsubscribe anytime.</p>
+            <p class="form-status" role="status" aria-live="polite" data-newsletter-status></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="index.html" aria-label="SimpliGarden home">
+            <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true">
+              <path d="M20 35V18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+              <path d="M20 22C10.5 22 5 15.8 5 5.5 14.5 5.5 20 11.7 20 22Z" fill="currentColor"/>
+              <path d="M20 17c9.5 0 15-6.2 15-16.5C25.5.5 20 6.7 20 17Z" fill="currentColor" opacity=".62"/>
+              <path d="M20 29c-6.6 0-10.5-3.9-10.5-10.5C16.1 18.5 20 22.4 20 29Z" fill="#c96b4b"/>
+            </svg>
+            <span class="logo-word">Simpli<em>Garden</em></span>
+          </a>
+          <p>Simple, seasonal gardening for real spaces and real life. No perfect garden required.</p>
+          <div class="footer-social">
+            <a href="https://instagram.com" aria-label="SimpliGarden on Instagram" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://pinterest.com" aria-label="SimpliGarden on Pinterest" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.7 19.3c-.1-.8-.2-2 0-2.9l1.2-5.1s-.3-.6-.3-1.5c0-1.4.8-2.4 1.8-2.4.9 0 1.3.6 1.3 1.4 0 .9-.6 2.2-.9 3.4-.2 1 .5 1.9 1.6 1.9 1.9 0 3.3-2 3.3-4.8 0-2.5-1.8-4.3-4.4-4.3-3 0-4.8 2.2-4.8 4.6 0 .9.3 1.9.8 2.4.1.1.1.2.1.3l-.3 1.2c0 .2-.2.3-.4.2-1.3-.6-2.1-2.5-2.1-4 0-3.3 2.4-6.3 6.9-6.3 3.6 0 6.4 2.6 6.4 6 0 3.6-2.2 6.5-5.4 6.5-1.1 0-2.1-.6-2.4-1.2l-.7 2.6c-.2.9-.9 2-1.3 2.7A10 10 0 1 0 12 2Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="guides.html">DIY guides</a></li>
+            <li><a href="index.html#seasonal">Seasonal edit</a></li>
+            <li><a href="planner.html">Free planner</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Help</h3>
+          <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html#faq">FAQs</a></li>
+            <li><a href="mailto:hello@simpligarden.com">hello@simpligarden.com</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="terms.html">Terms of use</a></li>
+            <li><a href="privacy.html">Privacy policy</a></li>
+            <li><a href="privacy.html#cookies">Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span data-year>2026</span> SimpliGarden. All rights reserved.</p>
+        <p>Made for real gardens, not perfect ones.</p>
+      </div>
+    </footer>
+
+    <dialog class="guide-dialog" id="guide-dialog" aria-labelledby="guide-dialog-title">
+      <div class="guide-dialog-inner">
+        <button class="dialog-close" type="button" aria-label="Close guide" data-dialog-close>×</button>
+        <div id="guide-dialog-content"></div>
+      </div>
+    </dialog>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
